@@ -21,7 +21,7 @@ Link do projeto básico no Blockly: https://blockly-demo.appspot.com/static/demo
 Link do projeto oficial no JDoodle: https://www.jdoodle.com/ia/1k02
 ## Projeto Básico no Blockly: 
 
-(images/blockly1.png)
+!(images/blockly1.png)
 (images/blockly2.png)
 
 ## Projeto Oficial no JDoodle:
