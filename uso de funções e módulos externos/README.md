@@ -11,6 +11,8 @@ O programa solicita ao usuário quantos números ele deseja consultar. Para cada
 - Fatorial: Calcula o fatorial do número fornecido.
 - Soma dos números pares: Calcula a soma de todos os números pares até o número fornecido.
 - Soma dos números ímpares: Calcula a soma de todos os números ímpares até o número fornecido.
+
+
 A cada consulta, o usuário pode escolher continuar inserindo mais números ou finalizar o programa ao digitar -1. Caso o número fornecido seja válido, o programa exibe os resultados (fatorial, soma dos pares e soma dos ímpares) e adiciona uma linha em branco para facilitar a leitura dos resultados. Ao final, o programa agradece ao usuário com uma mensagem de encerramento.
 
 Essa versão organizada em funções e módulos permite uma maior flexibilidade e clareza no código, além de ser mais fácil de manter e expandir.
