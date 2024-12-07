@@ -22,13 +22,13 @@ Link do projeto oficial no JDoodle: https://www.jdoodle.com/ia/1k02
 ## Projeto Básico no Blockly: 
 
 ![](images/blockly1.png)
-![](images\blockly2.png)
+![](images/blockly2.png)
 
 ## Projeto Oficial no JDoodle:
 
-![](images\py1.png)
-![](images\py2.png)
-![](images\py3.png)
+![](images/py1.png)
+![](images/py2.png)
+![](images/py3.png)
 
 
 
