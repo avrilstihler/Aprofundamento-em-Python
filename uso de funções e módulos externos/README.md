@@ -18,16 +18,21 @@ A cada consulta, o usuário pode escolher continuar inserindo mais números ou f
 Essa versão organizada em funções e módulos permite uma maior flexibilidade e clareza no código, além de ser mais fácil de manter e expandir.
 
 Link do projeto básico no Blockly: https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pt-br#afh3pf
+
+
 Link do projeto oficial no JDoodle: https://www.jdoodle.com/ia/1k02
 ## Projeto Básico no Blockly: 
 
 ![](images/blockly1.png)
+
 ![](images/blockly2.png)
 
 ## Projeto Oficial no JDoodle:
 
 ![](images/py1.png)
+
 ![](images/py2.png)
+
 ![](images/py3.png)
 
 
