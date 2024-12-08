@@ -66,7 +66,7 @@ carro_eletrico.parar()
 carro_eletrico.motor.desligar()
 ```
 ## Exemplo de Saída
-```python
+```plaintext
 O motor V8 de 450 cavalos foi ligado.
 O carro Ford Mustang está parado.
 O carro Ford Mustang com 2 portas está se movendo a 120 km/h.
