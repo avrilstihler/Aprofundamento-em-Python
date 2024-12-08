@@ -51,3 +51,24 @@ carro.velocidade = 120
 carro.mover()  # O carro está em movimento
 carro.parar()
 carro.motor.desligar()
+```
+
+### Criando e Usando um Carro Elétrico
+```python
+motor_eletrico = Motor(tipo="Elétrico", potencia=300)
+carro_eletrico = CarroEletrico(marca="Tesla", modelo="Model S", ano=2023, numero_de_portas=4, motor=motor_eletrico, autonomia=600)
+
+carro_eletrico.motor.ligar()
+carro_eletrico.carregar_bateria()
+carro_eletrico.velocidade = 80
+carro_eletrico.mover()  # O carro elétrico está se movendo silenciosamente
+carro_eletrico.parar()
+carro_eletrico.motor.desligar()
+```
+### Recursos Demonstrados
+- Herança: Carro herda de Veiculo e CarroEletrico herda de Carro.
+- Polimorfismo: Métodos como mover() são sobrescritos para se adaptarem ao comportamento específico de cada subclasse.
+- Composição: Carro e CarroEletrico possuem um atributo motor, que é uma instância da classe Motor.
+
+
+Explore o sistema e entenda como a programação orientada a objetos pode tornar seus projetos mais modulares e organizados! 🚗⚡
