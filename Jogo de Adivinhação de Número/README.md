@@ -12,7 +12,11 @@ Bem-vindo ao Jogo de Adivinhação, um jogo interativo no terminal onde você te
 - Siga as Instruções no Terminal
 
 -- Escolha a dificuldade (Fácil, Médio, Difícil).
+
+
 -- Tente adivinhar o número sorteado dentro do número máximo de tentativas.
+
+
 -- Utilize as dicas fornecidas e acompanhe o histórico para melhorar suas chances.
 
 ## Regras e Pontuação
