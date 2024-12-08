@@ -81,7 +81,7 @@ O carro elétrico Tesla Model S está se movendo silenciosamente a 80 km/h.
 O veículo Tesla Model S parou.
 O motor Elétrico de 300 cavalos foi desligado.
 ```
-### Recursos Demonstrados
+## Recursos Demonstrados
 - Herança: Carro herda de Veiculo e CarroEletrico herda de Carro.
 - Polimorfismo: Métodos como mover() são sobrescritos para se adaptarem ao comportamento específico de cada subclasse.
 - Composição: Carro e CarroEletrico possuem um atributo motor, que é uma instância da classe Motor.
