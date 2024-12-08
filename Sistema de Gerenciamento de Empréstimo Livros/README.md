@@ -137,4 +137,4 @@ O sistema pode ser expandido para incluir:
   - Consulta de empréstimos anteriores por aluno ou livro.
 
 
-Explore o código para entender como usar getters, setters e a modularidade em aplicações POO! 📚👨‍🎓
+Este sistema é uma base para entender como aplicar conceitos de POO em cenários do mundo real, como a gestão de uma biblioteca escolar. 📚🎓
