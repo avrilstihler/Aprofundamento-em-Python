@@ -32,9 +32,10 @@ Os projetos estão organizados em duas categorias:
    git clone https://github.com/avrilstihler/Aprofundamento-em-Python.git
 2. Navegue pelas pastas e escolha o projeto que deseja explorar.
 3. Execute o código utilizando Python:
-  ```bash
-  python main.py
-  ````
+   ```bash
+   python main.py
+  
+
 ## Contato
 Se quiser trocar ideias ou dar sugestões, entre em contato comigo:
 
