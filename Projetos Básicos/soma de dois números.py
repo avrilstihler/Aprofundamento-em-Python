@@ -1,15 +1,11 @@
-num1 = None
-num2 = None
-soma = None
+# soma de dois números.py
 
-def text_prompt(msg):
-  try:
-    return raw_input(msg)
-  except NameError:
-    return input(msg)
+# Solicita os números ao usuário
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
 
-
-num1 = float(text_prompt('Digite o primeiro número: '))
-num2 = float(text_prompt('Digite o segundo número: '))
+# Calcula a soma
 soma = num1 + num2
-print(''.join([str(x) for x in ['A soma de ', num1, ' e ', num2, ' é igual a: ', soma]]))
+
+# Exibe o resultado
+print(f"A soma dos dois números é: {soma}")
