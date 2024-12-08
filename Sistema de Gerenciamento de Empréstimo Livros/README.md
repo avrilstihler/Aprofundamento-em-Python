@@ -91,7 +91,7 @@ print("\nApós as alterações:")
 aluno.imprimir()
 ````
 ## Exemplo de Saída
-````python
+````plaintext
 Dados do livro:
 Título: O Ceifador, Autor: Neal Shusterman, Código de Identificação: 1204
 
