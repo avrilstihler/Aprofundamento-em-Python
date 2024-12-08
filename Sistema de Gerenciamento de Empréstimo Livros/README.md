@@ -1,6 +1,21 @@
-# Sistema de Gerenciamento de Livros e Alunos
+# Sistema de Gerenciamento de Empréstimo de Livros de uma Escola
 
-Este projeto implementa duas classes principais, **Livro** e **Aluno**, que demonstram conceitos básicos de **programação orientada a objetos (POO)**, como encapsulamento, getters, setters, e métodos de manipulação de dados.
+Este projeto implementa um sistema básico para gerenciar **empréstimos de livros** em uma escola. Ele utiliza conceitos de **programação orientada a objetos (POO)**, como encapsulamento, métodos de acesso e manipulação de dados.
+
+---
+
+## Funcionalidades
+
+1. **Gerenciamento de Livros**:
+   - Cadastro de livros com título, autor e código de identificação.
+   - Alteração e consulta de informações dos livros.
+
+2. **Gerenciamento de Alunos**:
+   - Cadastro de alunos com nome, sobrenome e registro acadêmico.
+   - Alteração e consulta de informações dos alunos.
+
+3. **Fluxo de Empréstimo (Futuro)**:
+   - Implementação futura de funcionalidades para registrar e gerenciar empréstimos de livros por alunos.
 
 ---
 
@@ -44,7 +59,7 @@ A classe `Aluno` representa um aluno com informações básicas e métodos para 
 
 ## Exemplos de Uso
 
-### Manipulando um Livro
+### Cadastro e Alteração de Livros
 ```python
 # Criando um objeto da classe Livro
 livro = Livro("O Ceifador", "Neal Shusterman", "1204")
@@ -59,7 +74,7 @@ livro.set_codigo_identificacao("1205")
 print("\nApós as alterações:")
 livro.imprimir()
 ````
-### Manipulando um Aluno
+### Cadastro e Alteração de Alunos
 ````python
 
 # Criando um objeto da classe Aluno
@@ -109,6 +124,17 @@ Métodos set permitem a modificação controlada de atributos.
 
 - **Facilidade de Extensão:**
 O código é modular e pode ser facilmente estendido para suportar novas funcionalidades.
+
+## Expansão Futura
+O sistema pode ser expandido para incluir:
+
+- **Registro de Empréstimos:**
+  - Associar livros a alunos por período de empréstimo.
+  - Registro de devoluções.
+- **Gestão de Estoque:**
+  - Controle de quantidade de exemplares disponíveis.
+- **Histórico:**
+  - Consulta de empréstimos anteriores por aluno ou livro.
 
 
 Explore o código para entender como usar getters, setters e a modularidade em aplicações POO! 📚👨‍🎓
