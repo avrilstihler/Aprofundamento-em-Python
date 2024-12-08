@@ -48,7 +48,7 @@ pagamento_boleto = PagamentoBoleto()
 pagamento_boleto.processar_pagamento(400.00)
 ````
 ## Exemplo de Saída
-````python
+````plaintext
 === Simulação de Pagamento com Cartão de Crédito ===
 🔔 Pagamento aprovado! Processando R$250.00 com o cartão de crédito.
 💳 Transação realizada com sucesso! Obrigado por usar nossos serviços.
