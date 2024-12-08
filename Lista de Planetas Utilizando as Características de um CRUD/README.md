@@ -1,5 +1,5 @@
 # Lista de Planetas Utilizando as Características de um CRUD
-Desenvolvi um programa em linguagem Python na plataforma JDoodle que possibilita gerenciar informações sobre planetas de forma interativa, com base nas características de um CRUD (Create, Read, Update, Delete). O programa foi dividido em três módulos principais:
+Desenvolvi um programa em linguagem Python que possibilita gerenciar informações sobre planetas de forma interativa, com base nas características de um CRUD (Create, Read, Update, Delete). O programa foi dividido em três módulos principais:
 
 - main.py: É o módulo principal que controla o fluxo do programa, exibindo um menu com as opções disponíveis para o usuário.
 - planetas.py: Armazena os dados dos planetas, como nome, tamanho, distância do Sol e apelido.
@@ -15,5 +15,3 @@ Desenvolvi um programa em linguagem Python na plataforma JDoodle que possibilita
 
 Essas funcionalidades são acessadas por meio de um menu interativo, e o programa permanece em execução até que o usuário escolha sair.
 
-
-Link para o projeto no JDoodle: https://www.jdoodle.com/ia/1k2U
