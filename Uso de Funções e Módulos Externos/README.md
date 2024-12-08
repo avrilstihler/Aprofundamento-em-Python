@@ -1,41 +1,95 @@
-# Uso de Funções e Módulos para Organizar o Código
-Inicialmente, criei um projeto básico no Blockly que calculava o fatorial de um número fornecido diretamente no bloco de código. Nesse primeiro projeto, o número não era inserido pelo usuário, mas configurado dentro do próprio bloco. O foco era apenas obter o resultado do fatorial do número especificado no código.
+# Uso de Funções e Módulos Externos
 
-Após esse projeto inicial, desenvolvi uma versão mais avançada do programa no JDoodle, utilizando funções e módulos. O objetivo era modularizar o código, tornando-o mais organizado e facilitando a reutilização. O código foi dividido em duas partes principais:
+Este é um programa que explora o uso de **funções** e **módulos externos** para realizar cálculos como **fatorial** e **somas (pares e ímpares)** de números fornecidos pelo usuário. Ele oferece uma interface interativa que permite consultar resultados para múltiplos números em sequência.
 
-- Módulo de funções: Contém as funções responsáveis pelos cálculos (fatorial, soma de pares e ímpares) e pela exibição dos resultados.
-- Programa principal: Controla o fluxo do programa, solicita a entrada do usuário e exibe as informações calculadas.
-# O que o programa faz
-O programa solicita ao usuário quantos números ele deseja consultar. Para cada número inserido, ele realiza as seguintes operações:
+---
 
-- Fatorial: Calcula o fatorial do número fornecido.
-- Soma dos números pares: Calcula a soma de todos os números pares até o número fornecido.
-- Soma dos números ímpares: Calcula a soma de todos os números ímpares até o número fornecido.
+## Funcionalidades
 
+1. **Cálculo do Fatorial**:
+   - Calcula o produto de todos os números inteiros positivos até o número fornecido.
 
-A cada consulta, o usuário pode escolher continuar inserindo mais números ou finalizar o programa ao digitar -1. Caso o número fornecido seja válido, o programa exibe os resultados (fatorial, soma dos pares e soma dos ímpares) e adiciona uma linha em branco para facilitar a leitura dos resultados. Ao final, o programa agradece ao usuário com uma mensagem de encerramento.
+2. **Cálculo do Somatório**:
+   - Soma os números pares ou ímpares de `0` até o número fornecido.
 
-Essa versão organizada em funções e módulos permite uma maior flexibilidade e clareza no código, além de ser mais fácil de manter e expandir.
+3. **Entrada Interativa**:
+   - Permite ao usuário consultar os resultados para vários números.
 
-Link do projeto básico no Blockly: https://blockly-demo.appspot.com/static/demos/code/index.html?lang=pt-br#afh3pf
+4. **Uso de Módulos Externos**:
+   - A lógica do cálculo é modularizada, podendo ser reutilizada em outros programas.
 
+5. **Opção de Saída**:
+   - Digite `-1` para encerrar o programa a qualquer momento.
 
-Link do projeto oficial no JDoodle: https://www.jdoodle.com/ia/1k02
-## Projeto Básico no Blockly: 
+---
 
-![](images/blockly1.png)
+## Estrutura do Código
 
-![](images/blockly2.png)
+### Funções no Módulo `minha_biblioteca.py`
 
-## Projeto Oficial no JDoodle:
+#### `calcularFatorial(numero)`
+- Calcula e retorna o fatorial de um número.
+- **Parâmetros**:
+  - `numero`: Número inteiro positivo.
+- **Retorno**:
+  - Fatorial do número fornecido.
 
-![](images/py1.png)
+#### `calcularSomatorio(numero, pares)`
+- Calcula a soma dos números pares ou ímpares até o número fornecido.
+- **Parâmetros**:
+  - `numero`: Número inteiro positivo.
+  - `pares`: Booleano que indica se a soma deve incluir apenas números pares (`True`) ou ímpares (`False`).
+- **Retorno**:
+  - Soma dos números pares ou ímpares até o número.
 
-![](images/py2.png)
+#### `exibirResultados(numero)`
+- Exibe os resultados do fatorial e dos somatórios (pares e ímpares) para o número fornecido.
+- **Parâmetros**:
+  - `numero`: Número inteiro positivo.
 
-![](images/py3.png)
+---
 
+### Arquivo Principal `main.py`
 
+#### `main()`
+- Controla o fluxo do programa.
+- Solicita ao usuário a quantidade de números que deseja consultar.
+- Processa cada número fornecido, exibindo os resultados ou encerrando caso `-1` seja digitado.
 
+---
 
+## Como Usar
 
+1. **Estrutura de Arquivos**:
+   - Crie dois arquivos:
+     - `main.py` (arquivo principal para execução).
+     - `minha_biblioteca.py` (contendo as funções mencionadas acima).
+
+2. **Execute o programa**.
+3. Informe a quantidade de números que deseja consultar.
+4. Para cada número, digite o valor desejado.
+   - O programa exibirá o fatorial, a soma dos pares e a soma dos ímpares.
+5. Digite `-1` para encerrar o programa a qualquer momento.
+
+---
+
+## Exemplo de Uso
+
+### Entrada
+```plaintext
+Quantos números deseja consultar? (Digite -1 para sair): 2
+Informe o número 1: 5
+Informe o número 2: 6
+````
+### Saída
+````plaintext
+Copiar código
+O fatorial de 5 é: 120
+A soma dos pares até 5 é: 6
+A soma dos ímpares até 5 é: 9
+
+O fatorial de 6 é: 720
+A soma dos pares até 6 é: 12
+A soma dos ímpares até 6 é: 9
+
+Obrigado por utilizar o sistema!
