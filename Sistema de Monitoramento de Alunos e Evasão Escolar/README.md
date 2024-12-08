@@ -104,3 +104,6 @@ Aluno: João
 Frequência: 70.0%
 Média das Notas: 5.83
 Risco de Evasão: Sim
+````
+
+Este projeto é útil para instituições de ensino que desejam monitorar e prevenir a evasão escolar, identificando alunos que precisam de suporte adicional. 🎓📊
