@@ -16,4 +16,4 @@ Desenvolvi um programa em linguagem Python que possibilita gerenciar informaçõ
 Essas funcionalidades são acessadas por meio de um menu interativo, e o programa permanece em execução até que o usuário escolha sair.
 ## Imagem de Saída Esperada
 
-![](images/saida.py)
+![](images/saida.png)
