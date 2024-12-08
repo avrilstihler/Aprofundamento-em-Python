@@ -40,3 +40,34 @@ print("=== Simulação de Pagamento com Cartão de Crédito ===")
 pagamento_cartao = PagamentoCartao("1234567812345678")
 pagamento_cartao.processar_pagamento(250.00)
 ````
+### Pagamento com Boleto Bancário
+````python
+# Criando um pagamento com boleto
+print("\n=== Simulação de Pagamento com Boleto ===")
+pagamento_boleto = PagamentoBoleto()
+pagamento_boleto.processar_pagamento(400.00)
+````
+## Exemplo de Saída
+````python
+=== Simulação de Pagamento com Cartão de Crédito ===
+🔔 Pagamento aprovado! Processando R$250.00 com o cartão de crédito.
+💳 Transação realizada com sucesso! Obrigado por usar nossos serviços.
+
+=== Simulação de Pagamento com Boleto ===
+📄 Boleto gerado! Código de barras: 30495626862116749560295757872822502773313851482
+🗓️  Data de vencimento: 15/12/2024
+💰 Pagamento de R$400.00 processado com boleto bancário.
+🔔 Atenção: Pague seu boleto até a data de vencimento para evitar multas.
+````
+## Recursos Demonstrados
+- Abstração e Herança:
+A classe Pagamento é abstrata e define o método processar_pagamento, obrigatório para as subclasses.
+- Polimorfismo:
+Subclasses PagamentoCartao e PagamentoBoleto implementam o método processar_pagamento de formas diferentes.
+- Geração de Dados Aleatórios:
+O código de barras do boleto é gerado aleatoriamente com 47 dígitos.
+- Validação de Dados:
+A classe PagamentoCartao verifica se o número do cartão é válido (16 dígitos e numérico).
+
+
+Explore o sistema e veja como ele pode ser adaptado para diferentes cenários de pagamento no mundo real! 💳📄
