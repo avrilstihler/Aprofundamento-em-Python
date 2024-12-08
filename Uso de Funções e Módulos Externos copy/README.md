@@ -35,7 +35,7 @@ Link do projeto oficial no JDoodle: https://www.jdoodle.com/ia/1k02
 
 ![](images/py3.png)
 
-teste
+
 
 
 
