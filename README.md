@@ -33,8 +33,8 @@ Os projetos estão organizados em duas categorias:
 2. Navegue pelas pastas e escolha o projeto que deseja explorar.
 3. Execute o código utilizando Python:
   ```bash
-python main.py
-````
+  python main.py
+  ````
 ## Contato
 Se quiser trocar ideias ou dar sugestões, entre em contato comigo:
 
