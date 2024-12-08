@@ -83,7 +83,6 @@ Informe o número 2: 6
 ````
 ### Saída
 ````plaintext
-Copiar código
 O fatorial de 5 é: 120
 A soma dos pares até 5 é: 6
 A soma dos ímpares até 5 é: 9
