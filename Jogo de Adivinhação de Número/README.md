@@ -9,7 +9,7 @@ Bem-vindo ao Jogo de Adivinhação, um jogo interativo no terminal onde você te
 ## Como Jogar
 - Clone o Repositório
 - Execute o Jogo
-- Siga as Instruções no Terminal
+- Siga as Instruções no Terminal:
 
 -- Escolha a dificuldade (Fácil, Médio, Difícil).
 
