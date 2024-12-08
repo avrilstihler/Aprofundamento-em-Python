@@ -65,6 +65,22 @@ carro_eletrico.mover()  # O carro elétrico está se movendo silenciosamente
 carro_eletrico.parar()
 carro_eletrico.motor.desligar()
 ```
+## Exemplo de Saída
+```python
+O motor V8 de 450 cavalos foi ligado.
+O carro Ford Mustang está parado.
+O carro Ford Mustang com 2 portas está se movendo a 120 km/h.
+O veículo Ford Mustang parou.
+Uma das 2 portas do carro Ford Mustang foi aberta.
+O motor V8 de 450 cavalos foi desligado.
+
+--- Carro Elétrico ---
+O motor Elétrico de 300 cavalos foi ligado.
+O carro elétrico Tesla Model S está carregando a bateria para 600 km de autonomia.
+O carro elétrico Tesla Model S está se movendo silenciosamente a 80 km/h.
+O veículo Tesla Model S parou.
+O motor Elétrico de 300 cavalos foi desligado.
+```
 ### Recursos Demonstrados
 - Herança: Carro herda de Veiculo e CarroEletrico herda de Carro.
 - Polimorfismo: Métodos como mover() são sobrescritos para se adaptarem ao comportamento específico de cada subclasse.
