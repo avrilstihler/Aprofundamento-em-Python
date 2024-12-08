@@ -90,3 +90,17 @@ Notas do aluno (separe por espaços): 5.0 6.0 6.5
 
 Deseja adicionar outro aluno? (s/n): n
 ````
+### Saída
+````plaintext
+
+=== Resultados ===
+
+Aluno: Ana
+Frequência: 80.0%
+Média das Notas: 8.17
+Risco de Evasão: Não
+
+Aluno: João
+Frequência: 70.0%
+Média das Notas: 5.83
+Risco de Evasão: Sim
