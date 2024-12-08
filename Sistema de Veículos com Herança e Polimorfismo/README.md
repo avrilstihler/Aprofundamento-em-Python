@@ -8,8 +8,8 @@ Este projeto é uma implementação básica de um sistema de veículos em Python
 
 Classe base que representa um veículo genérico.
 
--- Atributos: marca, modelo, ano, velocidade.
--- Métodos:
+- Atributos: marca, modelo, ano, velocidade.
+- Métodos:
 
   
 mover(): Verifica se o veículo está em movimento.
