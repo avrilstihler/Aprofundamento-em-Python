@@ -18,21 +18,4 @@ Os projetos estão organizados em duas categorias:
   - Monitoramento de Evasão Escolar.
   - Uso de Funções e Módulos Externos.
 
-
-## Como Usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/avrilstihler/Aprofundamento-em-Python.git
-2. Navegue pelas pastas e escolha o projeto que deseja explorar.
-3. Execute o código utilizando Python:
-   
- ```bash
- main.py
-````
-
-ou 
-
-````
-programa_principal.py
   
