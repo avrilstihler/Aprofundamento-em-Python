@@ -29,3 +29,8 @@ Os projetos estão organizados em duas categorias:
    
    ```bash
    main.py
+   ````
+   ou em alguns casos:
+      ```bash
+   programa_principal.py
+   ````
