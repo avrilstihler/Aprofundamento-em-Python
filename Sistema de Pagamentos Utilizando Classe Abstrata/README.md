@@ -69,5 +69,3 @@ O código de barras do boleto é gerado aleatoriamente com 47 dígitos.
 - **Validação de Dados:**
 A classe PagamentoCartao verifica se o número do cartão é válido (16 dígitos e numérico).
 
-
-Explore o sistema e veja como ele pode ser adaptado para diferentes cenários de pagamento no mundo real! 💳📄
