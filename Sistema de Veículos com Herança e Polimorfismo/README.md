@@ -86,5 +86,3 @@ O motor Elétrico de 300 cavalos foi desligado.
 - Polimorfismo: Métodos como mover() são sobrescritos para se adaptarem ao comportamento específico de cada subclasse.
 - Composição: Carro e CarroEletrico possuem um atributo motor, que é uma instância da classe Motor.
 
-
-Explore o sistema e entenda como a programação orientada a objetos pode tornar seus projetos mais modulares e organizados! 🚗⚡
