@@ -4,12 +4,6 @@ Este repositório é uma coleção de projetos desenvolvidos ao longo da minha j
 
 ---
 
-## Objetivo
-
-Registrar minha trajetória no aprendizado de Python, organizando todos os projetos que desenvolvi. Este repositório serve como um **diário de progresso**, mostrando minha evolução e o impacto do estudo contínuo.
-
----
-
 ## Estrutura do Repositório
 
 Os projetos estão organizados em duas categorias:
@@ -35,9 +29,3 @@ Os projetos estão organizados em duas categorias:
    
    ```bash
    main.py
-  
-
-## Contato
-Se quiser trocar ideias ou dar sugestões, entre em contato comigo:
-
-Email: avrilstihlers@gmail.com
