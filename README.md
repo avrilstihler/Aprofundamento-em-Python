@@ -28,9 +28,5 @@ Os projetos estão organizados em duas categorias:
 3. Execute o código utilizando Python:
    
    ```bash
-   main.py
-   ````
-   ou em alguns casos:
-      ```bash
-   programa_principal.py
-   ````
+   main.py ou programa_principal.py
+  
