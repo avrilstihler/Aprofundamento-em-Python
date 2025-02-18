@@ -28,4 +28,4 @@ Bem-vindo ao Jogo de Adivinhação, um jogo interativo no terminal onde você te
 
 ![](images/exemplo.png)
 
-Divirta-se jogando! 🎮
+
