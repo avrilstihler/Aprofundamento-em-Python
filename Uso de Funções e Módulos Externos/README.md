@@ -49,7 +49,7 @@ Este é um programa que explora o uso de **funções** e **módulos externos** p
 
 ---
 
-### Arquivo Principal `main.py`
+### Arquivo Principal `programa_principal.py`
 
 #### `main()`
 - Controla o fluxo do programa.
@@ -62,7 +62,7 @@ Este é um programa que explora o uso de **funções** e **módulos externos** p
 
 1. **Estrutura de Arquivos**:
    - Crie dois arquivos:
-     - `main.py` (arquivo principal para execução).
+     - `programa_principal.py` (arquivo principal para execução).
      - `minha_biblioteca.py` (contendo as funções mencionadas acima).
 
 2. **Execute o programa**.
