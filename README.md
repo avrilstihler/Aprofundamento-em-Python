@@ -2,8 +2,6 @@
 
 Este repositório é uma coleção de projetos desenvolvidos ao longo da minha jornada de aprendizado em **Python**.
 
-## Estrutura do Repositório
-
 Os projetos estão organizados em duas categorias:
 
 - **Projetos Básicos**: Reúnem meus primeiros códigos, focados em aprender a lógica de programação e conceitos fundamentais. Exemplos:
