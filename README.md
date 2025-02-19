@@ -1,8 +1,6 @@
 # Aprofundamento em Python 
 
-Este repositório é uma coleção de projetos desenvolvidos ao longo da minha jornada de aprendizado em **Python**. Aqui, você encontrará desde os primeiros programas simples até projetos mais elaborados, refletindo meu progresso e aprofundamento na linguagem.
-
----
+Este repositório é uma coleção de projetos desenvolvidos ao longo da minha jornada de aprendizado em **Python**.
 
 ## Estrutura do Repositório
 
