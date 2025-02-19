@@ -136,5 +136,3 @@ O sistema pode ser expandido para incluir:
 - **Histórico:**
   - Consulta de empréstimos anteriores por aluno ou livro.
 
-
-Este sistema é uma base para entender como aplicar conceitos de POO em cenários do mundo real, como a gestão de uma biblioteca escolar. 📚🎓
