@@ -1,4 +1,4 @@
-# Aprofundamento em Python 
+# Aprofundamento em Python 🐍 
 
 Este repositório é uma coleção de projetos desenvolvidos ao longo da minha jornada de aprendizado em **Python**.
 
